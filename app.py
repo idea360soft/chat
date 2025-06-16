@@ -29,7 +29,7 @@ st.title("🤖 IDEA360CHAT")
 st.write("Enter your query and click Generate to get response from IDEA360CHAT.")
 
 # Prompt input box
-prompt = st.text_area("Your Prompt", placeholder="Ask anything...", height=200)
+prompt = st.text_area("Your Query", placeholder="Ask anything...", height=200)
 
 # Generation parameters
 max_tokens = st.slider("Max Tokens", 50, 2000, 500, step=50)
