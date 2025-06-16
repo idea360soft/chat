@@ -25,8 +25,8 @@ client = openai.OpenAI(api_key=openai_api_key)
 # Streamlit UI
 st.set_page_config(page_title="ChatGPT GPT-4", page_icon="🤖", layout="wide")
 
-st.title("🤖 ChatGPT with GPT-4o (Latest API Compatible)")
-st.write("Enter your prompt and click Generate to get response from GPT-4o.")
+st.title("🤖 IDEA360CHAT")
+st.write("Enter your query and click Generate to get response from IDEA360CHAT.")
 
 # Prompt input box
 prompt = st.text_area("Your Prompt", placeholder="Ask anything...", height=200)
