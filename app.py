@@ -45,8 +45,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # App title
-st.title("🤖 ChatGPT with GPT-4")
-st.write("Enter your prompt and click Generate to get response from GPT-4.")
+st.title("🤖 IDEA360AIGPT")
+st.write("Enter your query and click Generate to get response from IDEA360AIGPT .")
 
 # Prompt input box
 prompt = st.text_area("Your Prompt", placeholder="Ask anything...", height=200)
